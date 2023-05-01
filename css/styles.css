@@ -150,7 +150,7 @@ Section Hero
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero/people-office\ 1.jpg);
+    url(../images/hero/people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -250,6 +250,8 @@ Section 2
   justify-content: center;
   align-items: center;
   background-color: var(--color-cloud);
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 /* ===================
@@ -297,7 +299,7 @@ OUR Team section
   margin-right: 24px;
 }
 .card-content-box {
-  padding: 32px 16px;
+  padding: 32px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
