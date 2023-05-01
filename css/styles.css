@@ -349,6 +349,9 @@ OUR Team section
 .social-link:hover {
   background-color: var(--color-ocean);
 }
+.social-link:focus {
+  background-color: var(--color-ocean);
+}
 .socials {
   display: flex;
   justify-content: center;
@@ -421,6 +424,7 @@ FOOTER
 }
 .footer-cntnr {
   display: flex;
+  align-items: baseline;
 }
 .footer-logo-position {
   display: inline-block;
@@ -447,6 +451,15 @@ FOOTER
 }
 .footer-link:hover {
   background-color: var(--color-green);
+}
+.footer-link:focus {
+  background-color: var(--color-green);
+}
+.socials-f {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 /* ======================
 PORTFOLIO
