@@ -242,6 +242,17 @@ Section 2
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
+/* section 2 icons */
+.oppotunities-icon {
+}
+.oppotunities-container {
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-cloud);
+}
+
 /* ===================
 Section3
 ======================= */
@@ -328,8 +339,24 @@ OUR Team section
 .social-link {
   width: 40px;
   height: 40px;
+  background-color: var(--color-iris);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.social-link:hover {
+  background-color: var(--color-ocean);
 }
 .socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.socials-icon {
+  fill: var(--color-cloud);
 }
 /* ======================
 Section customers
@@ -344,6 +371,28 @@ Section customers
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-white);
+}
+.company-list {
+  display: flex;
+  justify-content: space-between;
+}
+.company-icon-contauner {
+  height: 88px;
+  width: 168px;
+  border: 1px solid var(--color-light-slate);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.company-icon {
+  fill: var(--color-light-slate);
+}
+.company-icon-contauner:hover .company-icon {
+  fill: var(--color-ocean);
+}
+.company-icon-contauner:hover {
+  border: 1px solid var(--color-ocean);
 }
 /* ===================
 FOOTER
@@ -385,7 +434,19 @@ FOOTER
 .social-title {
   margin-bottom: 16px;
 }
-
+/* footer social icons */
+.footer-link {
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-iris);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.footer-link:hover {
+  background-color: var(--color-green);
+}
 /* ======================
 PORTFOLIO
 ========================= */
