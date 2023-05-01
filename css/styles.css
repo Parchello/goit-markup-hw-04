@@ -147,8 +147,8 @@ Section Hero
   padding-top: 188px;
   padding-bottom: 188px;
   background-image: linear-gradient(
-      var(--color-bg-gradient),
-      var(--color-bg-gradient)
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
     ),
     url(../images/hero/people-office\ 1.jpg);
   background-repeat: no-repeat;
@@ -258,7 +258,7 @@ Section3
 .secondary-tittle {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -373,7 +373,7 @@ Section customers
 }
 .company-list {
   display: flex;
-  justify-content: space-between;
+  gap: 24px;
 }
 .company-icon-contauner {
   height: 88px;
