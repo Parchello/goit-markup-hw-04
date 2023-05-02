@@ -402,6 +402,7 @@ Section customers
 }
 .company-icon-contauner:focus {
   border-color: var(--color-ocean);
+  color: var(--color-ocean);
 }
 /* ===================
 FOOTER
