@@ -388,8 +388,7 @@ Section customers
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--color-light-slate);
-  fill: currentColor;
+  fill: var(--color-light-slate);
 }
 .company-icon {
   fill: currentColor;
