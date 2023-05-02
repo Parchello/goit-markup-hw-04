@@ -388,11 +388,10 @@ Section customers
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: var(--color-light-slate);
+  color: var(--color-light-slate);
 }
 .company-icon {
   fill: currentColor;
-  fill: var(--color-light-slate);
 }
 .company-icon-contauner:hover .company-icon {
   fill: var(--color-ocean);
