@@ -391,7 +391,7 @@ Section customers
   color: var(--color-light-slate);
 }
 .company-icon {
-  fill: currentColor var(--color-light-slate);
+  fill: currentColor;
   fill: var(--color-light-slate);
 }
 .company-icon-contauner:hover .company-icon {
