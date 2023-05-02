@@ -388,6 +388,7 @@ Section customers
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--color-light-slate);
 }
 .company-icon {
   fill: var(--color-light-slate);
@@ -397,6 +398,10 @@ Section customers
 }
 .company-icon-contauner:hover {
   border: 1px solid var(--color-ocean);
+  color: var(--color-ocean);
+}
+.company-icon-contauner:focus {
+  border-color: var(--color-ocean);
 }
 /* ===================
 FOOTER
